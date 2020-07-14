@@ -4,8 +4,9 @@ This is part code of Microservices in Golang using go-micro
 
 ## Structures
 
-1. [shippy-service-consignment](https://github.com/repodevs/shippy-service-consignment) Is Consignment Service (_this code_)
-2. [shippy-cli-consignment](https://github.com/repodevs/shippy-cli-consignment) Is Client that Consume Consignment Service
+- [shippy-service-consignment](https://github.com/repodevs/shippy-service-consignment) Is Consignment Service (_this code_)
+- [shippy-service-vessel](https://github.com/repodevs/shippy-service-vessel) Is Vessel Service
+- [shippy-cli-consignment](https://github.com/repodevs/shippy-cli-consignment) Is Client that Consume Consignment Service
 
 ## How to use
 
@@ -14,7 +15,8 @@ This is part code of Microservices in Golang using go-micro
 ### Install deps
 
 ```sh
-go get .
+go mod download
+go mod vendor
 ```
 
 ### Generate Protoc
